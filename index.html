@@ -8,6 +8,8 @@
       name="description"
       content="Senior Software Engineer — Ruby on Rails &amp; Elixir/Phoenix. 10+ years building multi-tenant healthcare SaaS systems. Remote."
     />
+    <link rel="canonical" href="https://abhsss96.github.io/" />
+    <meta name="theme-color" content="#282a36" />
     <meta property="og:title" content="Abhishek Sharma — Senior Backend Engineer" />
     <meta
       property="og:description"
@@ -15,11 +17,40 @@
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://abhsss96.github.io/" />
-    <meta name="twitter:card" content="summary" />
+    <meta property="og:image" content="https://abhsss96.github.io/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Abhishek Sharma — Senior Backend Engineer" />
+    <meta
+      name="twitter:description"
+      content="Senior Software Engineer — Ruby on Rails &amp; Elixir/Phoenix. 10+ years building multi-tenant healthcare SaaS systems. Remote."
+    />
+    <meta name="twitter:image" content="https://abhsss96.github.io/og-image.png" />
     <link
       rel="icon"
       href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23282a36'/%3E%3Ctext x='9' y='43' font-family='monospace' font-weight='700' font-size='28' fill='%238be9fd'%3E%3E_%3C/text%3E%3C/svg%3E"
     />
+    <link
+      rel="apple-touch-icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23282a36'/%3E%3Ctext x='9' y='43' font-family='monospace' font-weight='700' font-size='28' fill='%238be9fd'%3E%3E_%3C/text%3E%3C/svg%3E"
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Abhishek Sharma",
+        "url": "https://abhsss96.github.io/",
+        "jobTitle": "Senior Backend Engineer",
+        "description": "Senior Software Engineer — Ruby on Rails & Elixir/Phoenix. 10+ years building multi-tenant healthcare SaaS systems.",
+        "email": "mailto:email4abhisheksharma@gmail.com",
+        "sameAs": [
+          "https://github.com/abhsss96",
+          "https://linkedin.com/in/abhisheksharma91",
+          "https://rubygems.org/profiles/abhsss96"
+        ]
+      }
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -36,7 +67,7 @@
         --border-soft: #34364a;
         --text: #f8f8f2;
         --muted: #9aa3c7;
-        --faint: #6272a4;
+        --faint: #8894c2;
         --accent: #8be9fd;
         --accent-ink: #0d1a1f;
         --accent-dim: rgba(139, 233, 253, 0.12);
@@ -87,6 +118,23 @@
         outline: 2px solid var(--accent);
         outline-offset: 3px;
         border-radius: 2px;
+      }
+      .skip-link {
+        position: absolute;
+        left: -9999px;
+        top: 0;
+        z-index: 100;
+        background: var(--accent);
+        color: var(--accent-ink);
+        font-family: var(--font-mono);
+        font-size: 13px;
+        font-weight: 700;
+        text-decoration: none;
+        padding: 10px 16px;
+        border-radius: 0 0 6px 0;
+      }
+      .skip-link:focus {
+        left: 0;
       }
       img,
       svg {
@@ -896,6 +944,7 @@
     </style>
   </head>
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <div class="topbar">
       <div class="wrap">
         <a class="brand" href="#top">
@@ -913,6 +962,7 @@
     </div>
 
     <div id="top" class="wrap">
+      <span id="main"></span>
       <!-- HERO -->
       <section class="hero" style="border-top: none; padding-top: 80px">
         <span class="eyebrow"><span class="pulse-dot"></span>AVAILABLE FOR REMOTE ROLES</span>
